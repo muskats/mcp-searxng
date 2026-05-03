@@ -1,0 +1,27 @@
+# ===============================
+# IGNORED FILES AND DIRECTORIES
+# These files should not be committed to Git.
+# ===============================
+
+# --- Python Artifacts & Caching ---
+__pycache__/
+*.pyc
+*\.pyc
+.pytest_cache/
+# Virtual Environments (Common names)
+env/
+venv/
+.venv/
+
+# Compiled/Build Directories and Package Metadata
+dist/
+build/
+*.egg-info/
+# --- OS & Editor Metadata ---
+.DS_Store
+Thumbs.db
+*~
+# --- Local Configuration & Secrets (Manual Additions) ---
+.env
+secrets.json
+

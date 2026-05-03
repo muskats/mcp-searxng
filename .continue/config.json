@@ -1,0 +1,15 @@
+{
+  "models": [
+    {
+      "name": "LM Studio Large Model",
+      "provider": "lmstudio",
+      "model": "google/gemma-4-e4b",
+      "apiBase": "http://localhost:1234/v1/",
+      "contextLength": 32768,
+      "capabilities": ["chat", "tool_use"],
+      "defaultCompletionOptions": {
+        "temperature": 0.2
+      }
+    }
+  ]
+}

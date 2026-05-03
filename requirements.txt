@@ -1,0 +1,7 @@
+# Core dependencies
+uvicorn[standard] # For running the web server/API endpoint
+fastapi # Used in server.py
+pydantic>=2.0 # Used in models.py and services/search_service.py
+pydantic-settings # Dependency for managing settings via BaseSettings
+
+httpx # HTTP client for raw searches (used in clients/searxng.py)
