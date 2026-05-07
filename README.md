@@ -28,7 +28,14 @@ The service is containerized for maximum portability and ease of use.
 
 ## Development Context and Implementation Details
 
-This project was developed using a local agent workflow as a test, running on the following machine hardware:
+This project was developed using a local agent workflow as a test.
+
+### LLM Model
+
+**Gemma**
+
+*   **Generation:** 4
+*   **Size**: E4B 
 
 ### Hardware
 
