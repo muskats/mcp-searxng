@@ -52,16 +52,6 @@ This project was developed using a local agent workflow as a test.
 
 The structured separation of concerns (Entrypoint → MCP Tool Layer → Service Layer → HTTP Client Layer) was enforced by these tools and the model guidelines provided in `instructions.md`.
 
-This project was developed using a local agent workflow as a test.
-
-**Development Tools & Ecosystem:**
-*   **Local LLM Serving:** LM Studio v0.4.12 (used as the local server).
-*   **LLM Model:** Gemma 4 (E4B architecture, providing the core intelligence for the agent).
-*   **IDE/Editor:** VS Codium.
-*   **Agent Framework:** The development process utilized an agent system incorporating Continune and Gemma agents to guide development, enforce architectural boundaries, and validate adherence to the Model Context Protocol (MCP) at every stage.
-
-The structured separation of concerns (Entrypoint → MCP Tool Layer → Service Layer → HTTP Client Layer) was enforced by these tools and the model guidelines provided in `instructions.md`.
-
 ## Disclaimer
 
 This project is provided for experimental purposes.
