@@ -28,13 +28,31 @@ The service is containerized for maximum portability and ease of use.
 
 ## Development Context and Implementation Details
 
-This project was developed using a sophisticated agent workflow to ensure architectural integrity and compliance with strict protocol rules.
+This project was developed using a local agent workflow as a test, running on the following machine hardware:
+
+### Hardware
+
+**Lenovo Legion Slim 5 16APH8**
+*   **CPU:** AMD Ryzen 7 7840HS w/ Radeon 780M Graphics (3.80 GHz)
+*   **RAM:** 16.0 GB RAM
+*   **GPU:** NVIDIA GeForce RTX 4070 Laptop GPU (8 GB)
+
+### Development Tools & Ecosystem:
+
+*   **Local LLM Serving:** LM Studio v0.4.12 (used as the local server).
+*   **LLM Model:** Gemma 4 (E4B architecture, providing the core intelligence for the agent).
+*   **IDE/Editor:** VS Codium.
+*   **Agent Framework:** The development process utilized an agent system incorporating Continune and Gemma agents to guide development, enforce architectural boundaries, and validate adherence to the Model Context Protocol (MCP) at every stage.
+
+The structured separation of concerns (Entrypoint → MCP Tool Layer → Service Layer → HTTP Client Layer) was enforced by these tools and the model guidelines provided in `instructions.md`.
+
+This project was developed using a local agent workflow as a test.
 
 **Development Tools & Ecosystem:**
 *   **Local LLM Serving:** LM Studio v0.4.12 (used as the local server).
 *   **LLM Model:** Gemma 4 (E4B architecture, providing the core intelligence for the agent).
 *   **IDE/Editor:** VS Codium.
-*   **Agent Framework:** The development process utilized an advanced agent system incorporating Continune and Gemma agents to guide development, enforce architectural boundaries, and validate adherence to the Model Context Protocol (MCP) at every stage.
+*   **Agent Framework:** The development process utilized an agent system incorporating Continune and Gemma agents to guide development, enforce architectural boundaries, and validate adherence to the Model Context Protocol (MCP) at every stage.
 
 The structured separation of concerns (Entrypoint → MCP Tool Layer → Service Layer → HTTP Client Layer) was enforced by these tools and the model guidelines provided in `instructions.md`.
 

@@ -1,7 +1,7 @@
 {
   "models": [
     {
-      "name": "LM Studio Large Model",
+      "name": "LM Studio Gemma",
       "provider": "lmstudio",
       "model": "google/gemma-4-e4b",
       "apiBase": "http://localhost:1234/v1/",
